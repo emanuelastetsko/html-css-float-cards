@@ -36,5 +36,41 @@ main {
 
 .introduction-p {
     text-align: center;
+    margin-bottom: 25px;
 }
 
+/* FLOAT */
+
+.first-row, .second-row {
+    margin: 50px 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card1, .card2, .card3{
+    width: calc(100%/3);
+    background-color: #0f0e17;
+}
+
+
+.float-left {
+    float: left;
+}
+
+img {
+    width: auto;
+    height: 100px;
+}
+
+.info{
+    color: white;
+    display: inline-block;
+}
+
+div > a {
+    color: #53b3e3;
+}
