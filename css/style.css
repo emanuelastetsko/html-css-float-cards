@@ -52,8 +52,12 @@ main {
 }
 
 .card1, .card2, .card3{
-    width: calc(100%/3);
+    width: calc((100% / 3) - 20px);
     background-color: #0f0e17;
+}
+
+.card2 {
+    margin: 0 30px;
 }
 
 
@@ -64,13 +68,19 @@ main {
 img {
     width: auto;
     height: 100px;
+    vertical-align: middle;
 }
 
 .info{
     color: white;
     display: inline-block;
+    vertical-align: inline-block;
 }
 
 div > a {
     color: #53b3e3;
+}
+
+.info h4, .info p, .info a {
+    margin: 10px;
 }
