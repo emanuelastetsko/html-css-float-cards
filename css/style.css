@@ -1,0 +1,40 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    PALETTE:
+    rosa: #e53170;
+    azzurro: #53b3e3;
+    nero: #0f0e17;
+
+*/
+
+/* BODY */
+
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+
+#main-title {
+    text-align: center;
+    color: #e53170;
+    padding: 25px;
+}
+
+/* MAIN */
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.introduction-p {
+    text-align: center;
+}
+
